@@ -1,0 +1,96 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1300px) {
+    .navbar .nav-link{
+        padding: 0 4px !important;
+    }
+    .banner_top .banner_details h1{
+        margin-bottom: 10px;
+        color: var(--text-black);
+        font-size: 50px;
+        font-weight: 700;
+      }
+      .banner_top .banner_details p{
+          margin: auto;
+      }
+      
+}
+@media only screen and (max-width: 1230px) {
+    .banner_top .banner_details h1{
+        font-size: 38px;
+    }
+    .banner_top .banner_details p:first-child{
+        font-size: 26px;
+    }
+    .banner_top .banner_details p{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .navbar{
+        background-color: white;
+        text-align: center;
+    }
+    .navbar .nav-item{
+        line-height: 2.5rem;
+        margin-top: 10px;
+    }
+    .navbar .nav-link{
+        color: black !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .banner_top .banner_details p:first-child{
+        font-size: 25px;
+    }
+    .banner_top .banner_details h1{
+        font-size: 38px;
+    }
+    .banner_top .banner_details p{
+        font-size: 12px;
+    }
+    
+    .banner_top .banner_details .black-btn{
+        
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner_top .banner_details p:first-child{
+        font-size: 18px;
+    }
+    .banner_top .banner_details h1{
+        font-size: 28px;
+    }  
+    .banner_top .banner_details p{
+        font-size: 10px;
+    } 
+    .banner_top .banner_details .black-btn{
+        margin-top: 12px;
+        font-size: 12px;
+    }
+    .price-2 h2{
+        font-size: 18px;
+      }
+      .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    #reviews .reviews_image{
+        max-width: 75%;
+        margin: auto;
+    }
+}
